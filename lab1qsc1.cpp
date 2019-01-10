@@ -1,5 +1,5 @@
 /*Write a class House which has the following data and functions : (you may add other function members to help you with the program) 
-1. Name of the house (Data)
+. Name of the house (Data)
 2. Address 
 3. Rooms 
 4. Setup  // Asks for entry of data to house)
@@ -43,4 +43,27 @@ void setup()
   cin>>city;
   cout<<"\n enter zipcode:";
   cin>>zipcode;
+}
+void show()
+{
+  cout<<"\n house no.:";
+  cout<<hno;
+  cout<<" city name";
+  cout<<city;
+  cout<<"zipcode";
+  cout<<zipcode;
+}
+}
+class room
+{
+  int length;
+  int breadth;
+  int height;
+  char purpose[40];
   
+
+  }
+class house
+
+
+
